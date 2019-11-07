@@ -1,4 +1,4 @@
-package br.com.casadocodigo.loja.conf;
+package br.com.alura.loja.conf;
 
 import org.springframework.web.servlet.support.AbstractAnnotationConfigDispatcherServletInitializer;
 

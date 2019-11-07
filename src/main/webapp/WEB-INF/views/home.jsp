@@ -11,7 +11,7 @@
 	<table>
 	    <tr>
 	        <td>Java 8 Prático</td>
-	        <td>Certificação OCJP</td>
+	        <td>Certificação OCJP</td> 
 	    </tr>
 	    <tr>
 	        <td>TDD na Prática - JAVA</td>

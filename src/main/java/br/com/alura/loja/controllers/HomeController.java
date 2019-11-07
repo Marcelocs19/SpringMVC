@@ -1,4 +1,4 @@
-package br.com.casadocodigo.loja.controllers;
+package br.com.alura.loja.controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -8,7 +8,7 @@ public class HomeController {
 
 	@RequestMapping("/")
 	public String index() {
-		System.out.println("Entrando na home no casa de cÃ³digo");
+		System.out.println("Entrando na home no casa de código");
 		return "home";
 	}
 }
