@@ -105,11 +105,11 @@
 			<artifactId>spring-orm</artifactId>
 			<version>4.1.0.RELEASE</version>
 		</dependency>
-		<!-- <dependency>
+		 <dependency>
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 			<version>5.1.15</version>
-		</dependency> -->
+		</dependency> 
 	</dependencies>
 
 
