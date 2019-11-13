@@ -25,7 +25,7 @@
 		<c:forEach items = "${tipos}" var = "tipoPreco" varStatus="status">
 			<div>
 				<label>${tipoPreco}</label> <input type="text" name="precos[${status.index}].valor">
-				<label>${tipoPreco}</label> <input type="hidden" name="precos[${status.index}].tipo">
+				<label>${tipoPreco}</label> <input type="hidden" name="precos[${status.index}].tipo" value = "${tipoPreco}">
 			</div>
 		</c:forEach>
 		<button type="submit">Cadastrar</button>
