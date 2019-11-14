@@ -27,6 +27,11 @@
 			<label>Páginas</label> <input type="text" name="paginas">
 			<form:errors path="paginas"></form:errors>
 		</div>
+		<div>
+			<label>Data de Lançamento</label>
+			<input name = "dataLancamento"></input>
+			<form:errors path="dataLancamento"/>
+		</div>
 		<c:forEach items = "${tipos}" var = "tipoPreco" varStatus="status">
 			<div>
 				<label>${tipoPreco}</label> <input type="text" name="precos[${status.index}].valor">
