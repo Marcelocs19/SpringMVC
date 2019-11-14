@@ -20,7 +20,7 @@ import br.com.alura.loja.models.TipoPreco;
 import br.com.alura.loja.validation.ProdutoValidation;
 
 @Controller
-@RequestMapping("produtos")
+@RequestMapping("/produtos")
 public class ProdutosController {	
 	
 	@Autowired
